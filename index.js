@@ -1,7 +1,7 @@
 const axios = require('axios');
 const fs = require('fs');
 
-//1215110001
+//starting id 1215110001
 const getInterHallTicket = () => {
     for(let i = 1215163000; i < 1215167000; i++) {
         getTicketApis(i);
